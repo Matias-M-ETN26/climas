@@ -1,0 +1,105 @@
+body{
+    font-family: sans-serif;
+    background-image: url(https://fondosmil.com/fondo/94295.jpg);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.lugares-contenedor{
+    color: white;
+    top: 17vh;
+    position: relative;
+    margin: 0 auto;
+    width: 60vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor-principal{
+    color: white;
+    top: 25vh;
+    position: relative;
+    margin: 0 auto;
+    width: 50vw;
+    height: 25vw;
+}
+.l-gris{
+    color: #9aa0a6;
+    font-size: 16px;
+    line-height: 20px;
+}
+.dia-seleccionado-contenedor{
+    background-color: #252525;
+    text-align: right;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.celsius{
+    padding-top: 10px;
+}
+.alinear{
+    vertical-align: top;
+    display: table-cell;
+    flex-direction: column;
+}
+.temp-promedio{
+    font-size: 48px;
+}
+.localidad{
+    font-size: 22px;
+    line-height: 26px;
+}
+.info-clima{
+    padding-left: 15px;
+    text-align: left;
+    font-size: 12px;
+    color: #9aa0a6;
+}
+
+.clima,
+.info{
+    display: flex;
+    width: 50%;
+}
+
+.info{
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.fecha{
+    text-align: center
+}
+.dias-contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+.temp{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dias,.lugares{
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    display: table-cell;
+}
+.dias:hover,.lugares:hover{
+    background-color: #303134;
+    color: white;
+}
+.seleccionado{
+    background-color: #303134;
+}
+.img-clima{
+    width: 70px;
+    height: auto;
+}
+.cargando{
+    text-align: center;
+}
